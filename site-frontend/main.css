@@ -1,0 +1,81 @@
+/* ===== ANIMAÇÃO INICIAL ===== */
+.fade-in {
+    animation: fadeSlide 1s ease-in-out;
+}
+
+@keyframes fadeSlide {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ===== BODY E BACKGROUND ===== */
+body {
+    background-color: #d3eff2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* ===== CONTAINER PRINCIPAL ===== */
+.container {
+    max-width: 1200px;
+}
+
+/* ===== CARDS (Ajustado para Bootstrap) ===== */
+.book-card {
+    border: none;
+    border-radius: 16px;
+    background: linear-gradient(145deg, #ffffff, #f0f4f8);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: transform 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
+    
+    /* Removemos a margem fixa para não quebrar o grid do Bootstrap */
+    margin-bottom: 20px; 
+    height: 100%; /* Faz todos os cards da linha terem a mesma altura */
+}
+
+.book-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+    background: linear-gradient(145deg, #f8faff, #ffffff);
+}
+
+/* ===== CARD BODY ===== */
+.book-card .card-body {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.book-card .card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+}
+
+.book-card .card-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* ===== AJUSTE DE ESPAÇAMENTO DO GRID ===== */
+.row.g-4 {
+    --bs-gutter-x: 1.5rem; /* Espaçamento horizontal entre os cards */
+    --bs-gutter-y: 1.5rem; /* Espaçamento vertical entre as linhas */
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 768px) {
+    /* Em tablets e celulares, o Bootstrap já empilha 
+       os cards automaticamente devido ao 'md' em col-md-4 */
+    .book-card .card-title {
+        font-size: 1.15rem;
+    }
+}
