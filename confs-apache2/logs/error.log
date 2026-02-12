@@ -1,0 +1,44 @@
+[Wed Feb 11 20:14:48.464165 2026] [mpm_event:notice] [pid 1935:tid 1935] AH00489: Apache/2.4.66 (Debian) configured -- resuming normal operations
+[Wed Feb 11 20:14:48.464276 2026] [core:notice] [pid 1935:tid 1935] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Feb 11 21:05:39.733895 2026] [mpm_event:notice] [pid 1935:tid 1935] AH00492: caught SIGWINCH, shutting down gracefully
+[Wed Feb 11 21:05:39.818929 2026] [mpm_event:notice] [pid 2499:tid 2499] AH00489: Apache/2.4.66 (Debian) configured -- resuming normal operations
+[Wed Feb 11 21:05:39.819006 2026] [core:notice] [pid 2499:tid 2499] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Feb 11 21:06:40.040434 2026] [mpm_event:notice] [pid 2499:tid 2499] AH00493: SIGUSR1 received.  Doing graceful restart
+AH00557: apache2: apr_sockaddr_info_get() failed for vm-web
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Feb 11 21:06:40.053636 2026] [mpm_event:notice] [pid 2499:tid 2499] AH00489: Apache/2.4.66 (Debian) configured -- resuming normal operations
+[Wed Feb 11 21:06:40.053645 2026] [core:notice] [pid 2499:tid 2499] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Feb 11 21:09:08.131439 2026] [mpm_event:notice] [pid 2499:tid 2499] AH00493: SIGUSR1 received.  Doing graceful restart
+AH00557: apache2: apr_sockaddr_info_get() failed for vm-web
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Feb 11 21:09:08.146284 2026] [mpm_event:notice] [pid 2499:tid 2499] AH00489: Apache/2.4.66 (Debian) configured -- resuming normal operations
+[Wed Feb 11 21:09:08.146312 2026] [core:notice] [pid 2499:tid 2499] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Feb 11 21:19:52.017159 2026] [mpm_event:notice] [pid 2499:tid 2499] AH00492: caught SIGWINCH, shutting down gracefully
+[Wed Feb 11 21:19:52.103398 2026] [mpm_prefork:notice] [pid 8941:tid 8941] AH00163: Apache/2.4.66 (Debian) configured -- resuming normal operations
+[Wed Feb 11 21:19:52.103503 2026] [core:notice] [pid 8941:tid 8941] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Feb 11 21:19:52.627518 2026] [mpm_prefork:notice] [pid 8941:tid 8941] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Feb 11 21:19:59.665254 2026] [mpm_prefork:notice] [pid 8983:tid 8983] AH00163: Apache/2.4.66 (Debian) configured -- resuming normal operations
+[Wed Feb 11 21:19:59.665317 2026] [core:notice] [pid 8983:tid 8983] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Feb 11 22:34:43.884242 2026] [mpm_prefork:notice] [pid 8983:tid 8983] AH00171: Graceful restart requested, doing restart
+AH00557: apache2: apr_sockaddr_info_get() failed for vm-web
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Feb 11 22:34:43.922729 2026] [mpm_prefork:notice] [pid 8983:tid 8983] AH00163: Apache/2.4.66 (Debian) configured -- resuming normal operations
+[Wed Feb 11 22:34:43.922754 2026] [core:notice] [pid 8983:tid 8983] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Feb 11 22:45:23.704339 2026] [mpm_prefork:notice] [pid 8983:tid 8983] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Feb 11 22:45:23.845345 2026] [mpm_prefork:notice] [pid 10597:tid 10597] AH00163: Apache/2.4.66 (Debian) configured -- resuming normal operations
+[Wed Feb 11 22:45:23.845409 2026] [core:notice] [pid 10597:tid 10597] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Feb 11 22:45:30.938495 2026] [mpm_prefork:notice] [pid 10597:tid 10597] AH00171: Graceful restart requested, doing restart
+AH00557: apache2: apr_sockaddr_info_get() failed for vm-web
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Feb 11 22:45:30.987005 2026] [mpm_prefork:notice] [pid 10597:tid 10597] AH00163: Apache/2.4.66 (Debian) configured -- resuming normal operations
+[Wed Feb 11 22:45:30.987077 2026] [core:notice] [pid 10597:tid 10597] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Feb 12 01:28:04.465796 2026] [mpm_prefork:notice] [pid 755:tid 755] AH00163: Apache/2.4.66 (Debian) configured -- resuming normal operations
+[Thu Feb 12 01:28:04.470341 2026] [core:notice] [pid 755:tid 755] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Feb 12 10:34:46.366922 2026] [mpm_prefork:notice] [pid 762:tid 762] AH00163: Apache/2.4.66 (Debian) configured -- resuming normal operations
+[Thu Feb 12 10:34:46.391781 2026] [core:notice] [pid 762:tid 762] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Feb 12 10:58:38.057624 2026] [mpm_prefork:notice] [pid 762:tid 762] AH00170: caught SIGWINCH, shutting down gracefully
+[Thu Feb 12 10:58:38.212351 2026] [mpm_prefork:notice] [pid 1167:tid 1167] AH00163: Apache/2.4.66 (Debian) configured -- resuming normal operations
+[Thu Feb 12 10:58:38.212417 2026] [core:notice] [pid 1167:tid 1167] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Feb 12 11:04:48.533891 2026] [mpm_prefork:notice] [pid 1167:tid 1167] AH00170: caught SIGWINCH, shutting down gracefully
+[Thu Feb 12 11:04:48.649288 2026] [mpm_prefork:notice] [pid 1246:tid 1246] AH00163: Apache/2.4.66 (Debian) configured -- resuming normal operations
+[Thu Feb 12 11:04:48.649347 2026] [core:notice] [pid 1246:tid 1246] AH00094: Command line: '/usr/sbin/apache2'
